@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ body{
+   background-color: black;
+ }
+
+.container-nav{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  box-shadow: 0 5px 20px rgb(165, 0, 9) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.nav-bar{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link {
+  color: rgb(165, 0, 9);
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.link:hover{
+  text-shadow: 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9);
+  transition: 0.3s;
+}

@@ -1,0 +1,44 @@
+.container-cidade{
+    width: 60vw;
+    height: 600px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.title-cidade{
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+    color: rgb(165, 0, 9);
+    text-shadow: 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9);
+}
+.info-cidade{
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+.info-cidade h2{
+    margin-bottom: 20px;
+    padding: 10px;
+    color: rgb(165, 0, 9);
+    background-color: gold;
+    border-radius: 3px;
+}
+
+.info-cidade h3 a{
+    color: rgb(165, 0, 9);
+    text-decoration: none;
+}
+.info-cidade h3 a:hover{
+    color: rgb(165, 0, 9);
+    text-shadow: 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9);
+    text-decoration: underline;
+}
+
+.imagens{
+    width: 80%;
+    height: auto;
+    margin: 50px 0 50px 0;
+    box-shadow: 0 0 30px rgb(165, 0, 9), 0 0 30px rgb(165, 0, 9), 0 0 30px rgb(165, 0, 9);
+}

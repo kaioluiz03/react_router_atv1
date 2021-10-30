@@ -1,0 +1,40 @@
+.container-musica{
+    width: 60vw;
+    height: 600px;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+}
+
+.title-musica{
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+    color: rgb(165, 0, 9);
+    text-shadow: 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9);
+}
+
+.info-musica h3{
+    color: rgb(165, 0, 9);
+    margin-top: 10px;
+}
+
+.info-musica h3 a{
+    color: rgb(165, 0, 9);
+    text-decoration: none;
+}
+.info-musica h3 a:hover{
+    color: rgb(165, 0, 9);
+    text-shadow: 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9), 0 0 0.5em rgb(165, 0, 9);
+    text-decoration: underline;
+}
+
+.video-musica{
+    margin-top: 50px;
+    box-shadow: 0 0 30px rgb(165, 0, 9), 0 0 30px rgb(165, 0, 9), 0 0 30px rgb(165, 0, 9);
+}
+
+@media (max-width: 950px){
+    iframe{
+        display: none;
+    }
+}
