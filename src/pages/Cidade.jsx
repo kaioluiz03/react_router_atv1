@@ -9,5 +9,5 @@ export const Cidade = () =>{
         <section className='container-cidade'>
             <ConteudoCidade />
         </section>
-    )
-};
+    );
+}

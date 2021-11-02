@@ -20,5 +20,5 @@ export const ConteudoCidade = ()=> {
                 <img className='imagens' src={CentroVelho} alt="Fotografia da Rua Centro Velho" />
             </div>
         </>
-    )
-};
+    );
+}

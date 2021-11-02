@@ -8,5 +8,5 @@ export const Musica = ()=> {
         <section className='container-musica'>
             <ConteudoMusica />
         </section>
-    )
+    );
 }
